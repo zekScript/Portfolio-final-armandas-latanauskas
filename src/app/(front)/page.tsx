@@ -1,5 +1,6 @@
 import About from "@/components/sections/About";
 import Experience from "@/components/sections/Experience";
+import Projects from "@/components/sections/Projects";
 import Skills from "@/components/sections/Skills";
 
 export default function Home() {
@@ -26,12 +27,14 @@ export default function Home() {
     
 
       </div>
-      <div className="w-[75%]  m-auto g-y-7">
+      <div className="w-[65%]  m-auto g-y-7">
       <About />
 
       <Skills/>
 
       <Experience/>
+      
+      <Projects/>
       </div>
     </>
   );
