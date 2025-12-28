@@ -6,7 +6,7 @@ import AboutData from './AboutData'
 
 const About = () => {
   return (
-    <div className='h-[500px] w-full flex mt-24 gap-12'>
+    <div className='h-125 w-full flex mt-24 gap-12'>
             <AboutData/>
             <div>
                         <h1>
