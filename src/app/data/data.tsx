@@ -7,6 +7,7 @@ export const data = {
                   "React",
                   "Nextjs",
                   "Javascript",
+                  "Typescript",
                   "HTML5",
                   "CSS3",
 
