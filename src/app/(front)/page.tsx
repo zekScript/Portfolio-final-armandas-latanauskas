@@ -18,7 +18,7 @@ export default function Home() {
           loop
           style={{ pointerEvents: 'none' }}
         >
-          <source src='video.mp4' />
+          <source src="video.mp4" />
         </video>
         
         {/* Gradient Overlay for smooth transition */}
