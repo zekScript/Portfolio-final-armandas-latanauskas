@@ -10,6 +10,8 @@ export const data = {
                   "Typescript",
                   "HTML5",
                   "CSS3",
+                  "Tailwind",
+                  "Bootstrap"
 
             ]
       },
@@ -35,7 +37,7 @@ export const data = {
             languages: [
                   "Github", 
                   "Git",
-                  ""
+                  "Responsive design"
             ]
       },
       interested: {

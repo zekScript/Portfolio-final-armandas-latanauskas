@@ -40,7 +40,7 @@ const Skills = () => {
                         </div>
                         <div className='flex flex-col'>
                                     <h3>Other</h3>
-                                    <ul>
+                                    <ul className='mt-4'>
                                                 {data.other.languages.map(lang => (
                                                             <li key={lang}>
                                                                 {lang}
