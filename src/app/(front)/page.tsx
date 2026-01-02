@@ -4,37 +4,28 @@ import Projects from "@/components/sections/Projects";
 import Skills from "@/components/sections/Skills";
 
 export default function Home() {
-
-
- 
-
-
-  
-
   return (
     <>
-    <div className='h-screen w-full object-cover opacity-30'>
+      <div className="h-screen w-full object-cover opacity-30">
         <video
-          className='h-full w-full object-cover'
+          className="h-full w-full object-cover"
           playsInline
           autoPlay
           muted
           loop
-          style={{ pointerEvents: 'none' }} // Prevent interactions with the video
+          style={{ pointerEvents: "none" }} // Prevent interactions with the video
         >
-          <source src='video.mp4' />
+          <source src="video.mp4" />
         </video>
-    
-
       </div>
-      <div className="w-[65%]  m-auto g-y-7">
-      <About />
+      <div className="w-[93%] m-auto p-4 bg-[#1a1a1a]">
+        <About />
 
-      <Skills/>
+        <Skills />
 
-      <Experience/>
-      
-      <Projects/>
+        <Experience />
+
+        <Projects />
       </div>
     </>
   );
