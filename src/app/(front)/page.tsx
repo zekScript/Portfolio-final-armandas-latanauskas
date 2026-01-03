@@ -18,11 +18,11 @@ export default function Home() {
           loop
           style={{ pointerEvents: 'none' }}
         >
-          <source src="video.mp4" />
+          <source src="video2.mp4" />
         </video>
         
         {/* Gradient Overlay for smooth transition */}
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[#111] pointer-events-none"></div>
+        <div className="absolute inset-0 g-gradient-to-b from-transparent via-transparent to-[#111] pointer-events-none"></div>
       </div>
 
       {/* Transition Element */}
@@ -31,28 +31,28 @@ export default function Home() {
       </div>
 
       
-        <div className="w-[65%] m-auto space-y-7">
+        <div className="w-[93%] m-auto space-y-7">
           
           <section id="about" className="pt-18 pb-16 text-white">
             <About />
           </section>
 
           <section id="skills" className="pt-18 pb-16 text-white">
-            <h1 className="text-4xl md:text-5xl font-bold mb-12 text-center bg-gradient-to-b from-blue-400 to-cyan-400 bg-clip-text text-transparent">
-              Skills
-            </h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-12 text-center bg-gradient-to-b from-[#fb7e14] to-[#f2b705] bg-clip-text text-transparent">
+  Skills & Tech
+</h1>
             <Skills/>
           </section>
 
           <section id="xp" className="pt-18 pb-16 text-white">
-            <h1 className="text-4xl md:text-5xl font-bold mb-12 text-center bg-gradient-to-b from-blue-400 to-cyan-400 bg-clip-text text-transparent">
+            <h1 className="text-4xl md:text-5xl font-bold mb-12 text-center bg-gradient-to-b from-[#fb7e14] to-[#f2b705] bg-clip-text text-transparent">
               Experience
             </h1>
             <Experience/>
           </section>
 
           <section id="projects" className="pt-18 pb-16 text-white">
-            <h1 className="text-4xl md:text-5xl font-bold mb-12 text-center bg-gradient-to-b from-blue-400 to-cyan-400 bg-clip-text text-transparent">
+            <h1 className="text-4xl md:text-5xl font-bold mb-12 text-center bg-gradient-to-b from-[#fb7e14] to-[#f2b705] bg-clip-text text-transparent">
               Projects
             </h1>
             <Projects/>

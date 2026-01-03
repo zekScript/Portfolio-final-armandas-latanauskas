@@ -1,3 +1,1 @@
-Taken inspiration from https://www.takanov.com/
-
-Portfolio
+# Armandas Latanauskas portfolio
