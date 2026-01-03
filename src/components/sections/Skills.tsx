@@ -135,7 +135,7 @@ const Skills = () => {
         </div>
 
         <div className='flex flex-col mr-4'>
-          <h3 className='text-[#fb7e14] text-2xl mb-3'>Langs want 2 learn</h3>
+          <h3 className='text-[#fb7e14] text-2xl mb-3'>Eager 2 learn</h3>
           <div className='h-[2px] bg-[#fb7e14] opacity-30 '></div>
           <ul className='mt-4'>
             {data.interested.languages.map(lang => (

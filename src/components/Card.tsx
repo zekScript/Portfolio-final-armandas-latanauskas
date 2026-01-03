@@ -7,7 +7,7 @@ interface PropType {
 
 const Card: React.FC<PropType> = ({ title, img }) => {
   return (
-    <div className="w-full gap-4 h-full bg-[#222231] rounded-[8%] ">
+    <div className="w-full gap-4 h-full rounded-[8%] bg-[#0a0a0a] shadow-2xl text-[#f2b705] ">
       <div>
         <div className="container flex flex-col ">
           <div>
