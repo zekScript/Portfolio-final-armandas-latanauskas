@@ -6,27 +6,34 @@ const Projects = () => {
     <div className="grid grid-cols-3 gap-5">
       <Card
         title={`Hello world`}
-        img={`https://miro.medium.com/1*t_G1kZwKv0p2arQCgYG7IQ.gif`}
+        img={`roundedsqProject.png`}
+        
+        link={`https://erasmus-plus-project.vercel.app/`}
       />
       <Card
         title={`Something else`}
         img={`https://miro.medium.com/1*t_G1kZwKv0p2arQCgYG7IQ.gif`}
+        link={`https://erasmus-plus-project.vercel.app/`}
       />
       <Card
         title={`IKR`}
         img={`https://miro.medium.com/1*t_G1kZwKv0p2arQCgYG7IQ.gif`}
+        link={`https://erasmus-plus-project.vercel.app/`}
       />
       <Card
         title={`IKR`}
         img={`https://miro.medium.com/1*t_G1kZwKv0p2arQCgYG7IQ.gif`}
+        link={`https://erasmus-plus-project.vercel.app/`}
       />
       <Card
         title={`IKR`}
         img={`https://miro.medium.com/1*t_G1kZwKv0p2arQCgYG7IQ.gif`}
+        link={`https://erasmus-plus-project.vercel.app/`}
       />
       <Card
         title={`IKR`}
         img={`https://miro.medium.com/1*t_G1kZwKv0p2arQCgYG7IQ.gif`}
+        link={`https://erasmus-plus-project.vercel.app/`}
       />
     </div>
   );
