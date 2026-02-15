@@ -23,6 +23,7 @@ import {
   SiKotlin,
   SiGo,
   SiRuby,
+  SiTailwindcss,
   // SiJava,
   // SiCsharp
 } from 'react-icons/si';
@@ -43,6 +44,7 @@ export const iconMap: { [key: string]: any } = {
   "Typescript": <SiTypescript />,
   "HTML5": <SiHtml5 />,
   "CSS3": <SiCss3 />,
+  "Tailwind": <SiTailwindcss />,
   "NodeJS": <SiNodedotjs />,
   "MySQL": <SiMysql />,
   "MongoDB": <SiMongodb />,
@@ -79,7 +81,7 @@ fill={"currentColor"} viewBox="0 0 24 24">
 const Skills = () => {
   return (
     <div className='mt-12'>
-      <div className='grid grid-cols-5 '>
+      <div className='grid lg:grid-cols-4 grid-cols-1 gap-8'>
         <div className='flex flex-col mr-4'>
           <h3 className='text-[#fb7e14] text-2xl mb-3'>FrontEnd</h3>
           <div className='h-[2px] bg-[#fb7e14] opacity-30 '></div>
@@ -134,7 +136,7 @@ const Skills = () => {
           </ul>
         </div>
 
-        <div className='flex flex-col mr-4'>
+        {/* <div className='flex flex-col mr-4'>
           <h3 className='text-[#fb7e14] text-2xl mb-3'>Eager 2 learn</h3>
           <div className='h-[2px] bg-[#fb7e14] opacity-30 '></div>
           <ul className='mt-4'>
@@ -145,7 +147,7 @@ const Skills = () => {
               </li>
             ))}
           </ul>
-        </div>
+        </div> */}
       </div>
     </div>
   )
