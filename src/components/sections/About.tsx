@@ -9,7 +9,7 @@ const About = () => {
         <h1 className='text-2xl mb-4 before:content-["C:\>_"] before:text-[#f2b705]'>
           Hi there!
         </h1>
-        <p className="leading-relaxed text-sm sm:text-base ">
+        <p className="leading-relaxed text-sm lg:text-base md:text-sm">
           I like looking at errors and take time solve problems with trial and
           error. Also love building websites with alot of functionality. My
           dream life is having fully remote job and camping around with

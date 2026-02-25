@@ -1,6 +1,6 @@
 export const data = {
   frontend: {
-    languages: ["React", "Nextjs", "Javascript", "Typescript", "HTML5", "CSS3"],
+    languages: ["React", "Nextjs", "Javascript", "Typescript", "HTML5", "CSS3", "Tailwind"],
   },
   backend: {
     languages: [
